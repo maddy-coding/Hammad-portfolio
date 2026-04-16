@@ -1,135 +1,493 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio</title>
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hammad Riaz | UI/UX Designer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="site-banner">
+      <span
+        >Available for UI/UX design, design systems, and product
+        collaborations.</span
+      >
+      <a href="#contact">Let&apos;s Talk</a>
+    </div>
 
-<!-- NAV -->
-<nav>
-  <span class="logo">HD.</span>
-  <a href="#contact" class="nav-contact">Contact Me!</a>
-</nav>
+    <nav class="site-nav">
+      <a href="#" class="logo">Hammad<span>Riaz</span></a>
 
-<!-- HERO -->
-<section class="hero">
-  <h1>Your Name Here</h1>
-  <p>UI/UX Designer &amp; Creative Developer - I build things people love to use.</p>
-  <div class="hero-btns">
-    <a href="#" class="btn-primary">Resume</a>
-    <a href="#contact" class="btn-outline">Contact Me</a>
-  </div>
-</section>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
 
-<!-- CAROUSEL -->
-<section class="carousel-section">
-  <div class="carousel-wrapper">
-    <button class="carousel-btn prev" id="prevBtn" aria-label="Previous">
-      <svg fill="none" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
-    </button>
+      <a
+        href="assets/docs/Hammad_Riaz_UI_UX_Designer.pdf"
+        class="nav-contact"
+        download="Hammad_Riaz_UI_UX_Designer.pdf"
+        >Resume</a
+      >
+    </nav>
 
-    <div class="carousel-track" id="carouselTrack">
-      <div class="carousel-item">
-        <div class="placeholder-icon">
-          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909"/><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"/></svg>
-          <span>Image 1</span>
+    <header class="hero-shell">
+      <section class="hero">
+        <section style="padding: 40px"></section>
+        <span class="hero-eyebrow"
+          >UI/UX Designer &bull; Product Experiences</span
+        >
+        <h1>Where simplicity meets impact.</h1>
+        <p>
+          I create landing pages, portals, and design systems that help products
+          feel clean, usable, and ready for real users.
+        </p>
+
+        <div class="hero-btns">
+          <a
+            href="assets/docs/Hammad_Riaz_UI_UX_Designer.pdf"
+            class="btn-primary"
+            download="Hammad_Riaz_UI_UX_Designer.pdf"
+            >Download Resume</a
+          >
+          <a href="#work" class="btn-outline">View Projects</a>
         </div>
-      </div>
-      <div class="carousel-item">
-        <div class="placeholder-icon">
-          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909"/></svg>
-          <span>Image 2</span>
+
+        <div class="hero-meta">
+          <span>Responsive UI/UX</span>
+          <span>Design Systems</span>
         </div>
-      </div>
-      <div class="carousel-item">
-        <div class="placeholder-icon">
-          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909"/></svg>
-          <span>Image 3</span>
+      </section>
+    </header>
+    <section style="padding: 50px"></section>
+    <main>
+      <section class="about-section" id="about">
+        <div class="about-grid">
+          <div class="about-label-column">
+            <p class="about-kicker">About</p>
+          </div>
+
+          <div class="about-content-column">
+            <div class="about-intro">
+              <h2 class="about-title">
+                Creating clarity for forward-thinking companies through
+                structured, modern digital design.
+              </h2>
+            </div>
+
+            <div class="about-row">
+              <h3 class="about-row-title">Bio</h3>
+              <div class="about-copy">
+                <p>
+                  I am a UI/UX designer focused on making products feel easier
+                  to understand and more enjoyable to use. My process is rooted
+                  in hierarchy, consistency, and design decisions that help
+                  users move with confidence.
+                </p>
+                <p>
+                  I work across landing pages, dashboards, portals, and design
+                  systems, always looking for the point where visual quality and
+                  real usability meet. The goal is not just to make something
+                  look polished, but to make it feel clear and product-ready.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-row">
+              <h3 class="about-row-title">Services</h3>
+              <div class="about-list-columns">
+                <ul class="about-list">
+                  <li>UI Design</li>
+                  <li>UX Strategy</li>
+                  <li>Wireframing</li>
+                  <li>Design Systems</li>
+                  <li>Landing Pages</li>
+                  <li>Dashboard Design</li>
+                </ul>
+                <ul class="about-list">
+                  <li>Mobile App Design</li>
+                  <li>Web App Design</li>
+                  <li>Interaction Design</li>
+                  <li>Visual Direction</li>
+                  <li>Prototype Flows</li>
+                  <li>Developer Handoff</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="about-row">
+              <h3 class="about-row-title">Experience</h3>
+              <div class="about-list-columns">
+                <ul class="about-list">
+                  <li>SaaS Products</li>
+                  <li>Healthcare Platforms</li>
+                  <li>Admin Dashboards</li>
+                  <li>Brand-led Interfaces</li>
+                  <li>Design System Setup</li>
+                </ul>
+                <ul class="about-list">
+                  <li>Startup Teams</li>
+                  <li>Portfolio Websites</li>
+                  <li>Marketing Sites</li>
+                  <li>Responsive UX</li>
+                  <li>Product Refreshes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <div class="placeholder-icon">
-          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159"/></svg>
-          <span>Image 4</span>
+      </section>
+      <section style="padding: 30px"></section>
+      <section class="work-section" id="work">
+        <div class="section-heading">
+          <span class="section-tag">Selected Work</span>
+          <section style="padding: 20px;"></section>
+          <h2 class="section-title">
+            Product work built with simple UX, sharper hierarchy, and a more
+            modern visual finish.
+          </h2>
+          <div class="section-pills" aria-hidden="true">
+            <span class="section-pill is-active">Design</span>
+          </div>
         </div>
-      </div>
-    </div>
 
-    <button class="carousel-btn next" id="nextBtn" aria-label="Next">
-      <svg fill="none" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-    </button>
-  </div>
-</section>
+        <article class="case-item">
+          <div class="case-copy">
+            <div class="case-arrow">
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+              Case 1
+            </div>
+            <h3 class="case-heading">Kunji - Society Management System</h3>
+            <p class="case-para">
+              A landing page concept for a society management product that
+              introduces the app quickly, keeps the value easy to scan, and
+              supports action through a product-first hero layout.
+            </p>
+            <div class="case-meta">
+              <span class="case-chip">UI Design</span>
+              <span class="case-chip">Landing Page</span>
+              <span class="case-chip">Mobile Product</span>
+            </div>
+          </div>
+          
+          <div class="case-image">
+            <img
+              src="assets/images/kunji-landing.jpg"
+              alt="Kunji landing page preview"
+              class="media-contain media-contain--kunji"
+            />
+          </div>
+        </article>
+<section style="padding: 20px;"></section>
+        <article class="case-item">
+          <div class="case-copy">
+            <div class="case-arrow">
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+              Case 2
+            </div>
+            <h3 class="case-heading">Inkit - Health Care</h3>
+            <p class="case-para">
+              A clean healthcare login experience designed around readability,
+              trust, and a calm first step into the platform. The layout reduces
+              friction and keeps the sign-in action obvious.
+            </p>
+            <div class="case-meta">
+              <span class="case-chip">Web App</span>
+              <span class="case-chip">UX Flow</span>
+              <span class="case-chip">Healthcare</span>
+            </div>
+          </div>
+          <div class="case-image">
+            <img
+              src="assets/images/inkit-login.jpg"
+              alt="Inkit login page preview"
+            />
+          </div>
+        </article>
+<section style="padding: 20px;"></section>
+        <article class="case-item">
+          <div class="case-copy">
+            <div class="case-arrow">
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+              Case 3
+            </div>
+            <h3 class="case-heading">Design System</h3>
+            <p class="case-para">
+              A system-focused board that explores palette structure and
+              reusable visual rules. It supports consistency across screens
+              while setting up a clearer design language for future interfaces.
+            </p>
+            <div class="case-meta">
+              <span class="case-chip">Design System</span>
+              <span class="case-chip">Color Tokens</span>
+              <span class="case-chip">Visual Direction</span>
+            </div>
+          </div>
+          <div class="case-image">
+            <img
+              src="assets/images/color-system.jpg"
+              alt="Color system design exploration preview"
+            />
+          </div>
+        </article>
+      </section>
+<section style="padding: 30px;"></section>
+      <section class="capabilities-section" aria-label="Capabilities">
+        <div class="capabilities-heading">
+          <span class="section-tag">Tools I Use</span>
+          <section style="padding: 20px;"></section>
+          <h2 class="section-title">
+            The core design tools I use to shape interfaces, systems, and visual
+            work.
+          </h2>
+        </div>
+<section style="padding: 20px;"></section>
+        <div class="capability-strip">
+          <article class="capability-card">
+            <div class="tool-icon tool-icon--figma" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <rect
+                  x="14"
+                  y="6"
+                  width="18"
+                  height="18"
+                  rx="9"
+                  fill="#F24E1E"
+                />
+                <rect
+                  x="14"
+                  y="24"
+                  width="18"
+                  height="18"
+                  rx="9"
+                  fill="#A259FF"
+                />
+                <rect
+                  x="14"
+                  y="42"
+                  width="18"
+                  height="18"
+                  rx="9"
+                  fill="#0ACF83"
+                />
+                <rect
+                  x="32"
+                  y="6"
+                  width="18"
+                  height="18"
+                  rx="9"
+                  fill="#FF7262"
+                />
+                <circle cx="41" cy="33" r="9" fill="#1ABCFE" />
+              </svg>
+            </div>
+            <h3>Figma</h3>
+            <p>
+              My main tool for UI design, design systems, wireframes,
+              prototypes, and developer-ready handoff.
+            </p>
+          </article>
+          <article class="capability-card">
+            <div class="tool-icon tool-icon--illustrator" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <rect
+                  x="6"
+                  y="6"
+                  width="52"
+                  height="52"
+                  rx="14"
+                  fill="#1C140C"
+                />
+                <rect
+                  x="6"
+                  y="6"
+                  width="52"
+                  height="52"
+                  rx="14"
+                  stroke="#FF9A00"
+                  stroke-width="2"
+                />
+                <path
+                  d="M23 44L30.6 20H34.1L41.8 44H37.8L36.1 38.2H28.5L26.8 44H23ZM29.5 34.9H35.2L32.3 25.4L29.5 34.9Z"
+                  fill="#FF9A00"
+                />
+                <path
+                  d="M45.8 27.9C44.5 27.9 43.6 27 43.6 25.8C43.6 24.5 44.5 23.6 45.8 23.6C47.1 23.6 48 24.5 48 25.8C48 27 47.1 27.9 45.8 27.9ZM43.9 44V30.7H47.7V44H43.9Z"
+                  fill="#FF9A00"
+                />
+              </svg>
+            </div>
+            <h3>Adobe Illustrator</h3>
+            <p>
+              Used for logos, vector assets, icon work, and precise brand
+              visuals that support interface design.
+            </p>
+          </article>
+          <article class="capability-card">
+            <div class="tool-icon tool-icon--photoshop" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <rect
+                  x="6"
+                  y="6"
+                  width="52"
+                  height="52"
+                  rx="14"
+                  fill="#001833"
+                />
+                <rect
+                  x="6"
+                  y="6"
+                  width="52"
+                  height="52"
+                  rx="14"
+                  stroke="#31A8FF"
+                  stroke-width="2"
+                />
+                <path
+                  d="M21 44V20H29.6C32.3 20 34.4 20.7 35.7 22C37.1 23.3 37.8 25 37.8 27.2C37.8 29.6 37 31.4 35.5 32.7C34 34 31.9 34.6 29.1 34.6H24.8V44H21ZM24.8 31.3H28.8C30.3 31.3 31.4 30.9 32.2 30.2C33 29.5 33.4 28.5 33.4 27.2C33.4 25.9 33 24.9 32.2 24.2C31.4 23.5 30.3 23.1 28.8 23.1H24.8V31.3Z"
+                  fill="#31A8FF"
+                />
+                <path
+                  d="M45.3 44.3C43.8 44.3 42.5 44.1 41.2 43.6C40 43.2 39 42.5 38.3 41.7L40.5 39.1C41.2 39.8 42 40.3 42.8 40.7C43.7 41 44.6 41.2 45.6 41.2C46.7 41.2 47.5 41 48.1 40.6C48.7 40.2 49 39.6 49 38.8C49 38.2 48.8 37.7 48.4 37.3C48.1 36.9 47.4 36.5 46.5 36.2L43.8 35.3C40.8 34.2 39.3 32.3 39.3 29.5C39.3 28.4 39.6 27.4 40.2 26.6C40.8 25.7 41.6 25 42.6 24.5C43.7 24 44.9 23.8 46.2 23.8C47.4 23.8 48.5 24 49.6 24.4C50.7 24.8 51.6 25.4 52.4 26.2L50.5 28.7C49.9 28.1 49.2 27.6 48.5 27.3C47.8 27 47.1 26.9 46.3 26.9C45.4 26.9 44.6 27.1 44.1 27.5C43.5 27.9 43.2 28.5 43.2 29.2C43.2 29.8 43.5 30.3 43.9 30.7C44.4 31 45.1 31.4 46.1 31.7L48.7 32.6C50.2 33.1 51.4 33.9 52.1 34.8C52.9 35.7 53.3 36.9 53.3 38.4C53.3 39.6 53 40.6 52.4 41.5C51.8 42.4 50.9 43.1 49.8 43.6C48.7 44.1 47.2 44.3 45.3 44.3Z"
+                  fill="#31A8FF"
+                />
+              </svg>
+            </div>
+            <h3>Adobe Photoshop</h3>
+            <p>
+              Useful for image editing, presentation visuals, mockups, and
+              polishing supporting graphics for products.
+            </p>
+          </article>
+          <article class="capability-card">
+            <div class="tool-icon tool-icon--sketch" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <path d="M19 12H45L54 24L32 53L10 24L19 12Z" fill="#FDB300" />
+                <path d="M19 12L32 53L10 24L19 12Z" fill="#EA6C00" />
+                <path d="M45 12L32 53L54 24L45 12Z" fill="#EA6C00" />
+                <path d="M24 24H40L32 53L24 24Z" fill="#FDAD00" />
+                <path d="M19 12L24 24H10L19 12Z" fill="#FDD231" />
+                <path d="M45 12L40 24H54L45 12Z" fill="#FDD231" />
+                <path d="M24 24L19 12H45L40 24H24Z" fill="#FEEEB7" />
+              </svg>
+            </div>
+            <h3>Sketch</h3>
+            <p>
+              Still helpful for legacy product files, interface exploration, and
+              working across mixed design environments.
+            </p>
+          </article>
+        </div>
+      </section>
+<section style="padding: 30px;"></section>
+      <section class="contact-section" id="contact">
+        <span class="section-tag">Contact</span>
+        <h2>Ready to design something cleaner, sharper, and easier to use?</h2>
+        <section style="padding: 4px;"></section>
+        <p>Open to freelance, contract, and product-focused opportunities.</p>
 
-<!-- MY WORK -->
-<section class="work-section">
-  <h2 class="section-title">My Work</h2>
+        <div class="contact-details">
+          <div class="contact-row">
+            <div class="contact-icon">
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+            </div>
+            <a href="tel:03005274541" class="contact-link">03005274541</a>
+          </div>
+          <section style="padding: 6px;"></section>
+          <div class="contact-row">
+            <div class="contact-icon">
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+            </div>
+            <a href="mailto:hammadriaz170@gmail.com" class="contact-link"
+              >hammadriaz170@gmail.com</a
+            >
+          </div>
+        </div>
+<section style="padding: 6px;"></section>
+        <div class="contact-actions">
+          <a
+            href="assets/docs/Hammad_Riaz_UI_UX_Designer.pdf"
+            class="resume-btn"
+            download="Hammad_Riaz_UI_UX_Designer.pdf"
+          >
+            <svg fill="none" viewBox="0 0 24 24" stroke-width="2">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+              />
+            </svg>
+            Download Resume
+          </a>
+          <a href="mailto:hammadriaz170@gmail.com" class="btn-outline"
+            >Send Email</a
+          >
+        </div>
+      </section>
+    </main>
 
-  <div class="case-item">
-    <div>
-      <div class="case-arrow">
-        <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
-        Case 1
-      </div>
-      <h3 class="case-heading">Project Heading</h3>
-      <p class="case-para">A short description of what this project was about, the problem you solved, and the impact it made. Keep it concise and engaging.</p>
-    </div>
-    <div class="case-image">
-      <div class="placeholder-icon placeholder-icon--muted">
-        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v13.5A1.5 1.5 0 003.75 21z"/></svg>
-        <span class="placeholder-label">Image</span>
-      </div>
-    </div>
-  </div>
+    <footer class="site-footer">
+      <p>
+        © 2026 Hammad Riaz. Built for product-focused portfolio presentation.
+      </p>
+    </footer>
 
-  <div class="case-item">
-    <div>
-      <div class="case-arrow">
-        <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
-        Case 2
-      </div>
-      <h3 class="case-heading">Project Heading</h3>
-      <p class="case-para">Another project description goes here. Highlight the tools used, your role, and what made this project unique or challenging.</p>
-    </div>
-    <div class="case-image">
-      <div class="placeholder-icon placeholder-icon--muted">
-        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v13.5A1.5 1.5 0 003.75 21z"/></svg>
-        <span class="placeholder-label">Image</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT FOOTER -->
-<section class="contact-section" id="contact">
-  <h2>Contact Me!</h2>
-  <p>Open to new opportunities - let's build something great together.</p>
-
-  <div class="contact-details">
-    <div class="contact-row">
-      <div class="contact-icon">
-        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
-      </div>
-      0300-5274591
-    </div>
-    <div class="contact-row">
-      <div class="contact-icon">
-        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
-      </div>
-      youremail@gmail.com
-    </div>
-  </div>
-
-  <a href="#" class="resume-btn">
-    <svg fill="none" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
-    Download Resume
-  </a>
-</section>
-
-<script src="js/main.js" defer></script>
-
-</body>
+    <script src="js/main.js" defer></script>
+  </body>
 </html>
